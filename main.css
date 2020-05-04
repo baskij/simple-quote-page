@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('assets/freedom.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+q {
+  text-transform:uppercase;
+  font-size: 250%;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.wrapper {
+  padding-top: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
