@@ -16,7 +16,14 @@ body {
 
 q {
   text-transform:uppercase;
+  /*
   font-size: 250%;
+  font-size: 3.0vw;
+  font-size: 3.0vh;
+  font-size: 3vmin;
+  font-size: 3vmax;
+  */
+  font-size: 3vmin;
   font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -24,6 +31,23 @@ q {
   padding-top: 4rem;
   width: 90%;
   margin: 0 auto;
+  margin-top: -40%;
   text-align: center;
 }
 
+/*
+1vw = 1% of viewport width
+1vh = 1% of viewport height
+1vmin = 1vw or 1vh, whichever is smaller
+1vmax = 1vw or 1vh, whichever is larger
+
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}
+*/
